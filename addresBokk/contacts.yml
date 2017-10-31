@@ -1,0 +1,34 @@
+---
+- !ruby/object:Contact
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    kind: Casa
+    number: '333333333'
+  - !ruby/object:PhoneNumber
+    kind: Trabajo
+    number: '444444444'
+  addresses:
+  - !ruby/object:Address
+    kind: Casa
+    street_1: Los robles 17
+    street_2: ''
+    city: Guadalix
+    state: MA
+    postal_code: '12345'
+  first_name: David
+  last_name: Pique
+- !ruby/object:Contact
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    kind: vacaciones
+    number: '132131234'
+  addresses:
+  - !ruby/object:Address
+    kind: Casa
+    street_1: Los robles 17
+    street_2: ''
+    city: Guadalix
+    state: MA
+    postal_code: '12345'
+  first_name: amparo
+  last_name: arnao
