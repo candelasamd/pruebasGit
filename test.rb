@@ -140,6 +140,7 @@ end
 puts array.inspect
 =end
 
+=begin
 business = {"name"=> "PixelCompany", "location"=>"Madrid"}
 business.each do |key,valor|
     puts "La clave es #{key} y su valor es #{valor}"
@@ -164,3 +165,14 @@ end
 for item in ["uno", "dos", "tres"] do
     puts "el valor es  #{item}"
 end
+
+=end
+
+unavariable = "tontaina"
+puts unavariable.respond_to?("reverse")
+unavariable = 123
+puts unavariable.respond_to?("reverse")
+unavariable = {"uno"=>"tontaina","dos"=>"idiota"}
+puts unavariable.respond_to?("reverse")
+unavariable = ["tontaina","idiota"]
+puts unavariable.respond_to?("reverse")
